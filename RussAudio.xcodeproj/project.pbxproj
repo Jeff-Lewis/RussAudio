@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67163536199F0FAE004CF044 /* digitalMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 67163535199F0FAE004CF044 /* digitalMusic.png */; };
+		6743FFAD199DED7400E8F14D /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FEDE199DED7400E8F14D /* DDLog.m */; };
+		6743FFAE199DED7400E8F14D /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FEE0199DED7400E8F14D /* DDTTYLogger.m */; };
+		6743FFAF199DED7400E8F14D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FEE2199DED7400E8F14D /* GCDAsyncSocket.m */; };
+		6743FFB0199DED7400E8F14D /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FEE4199DED7400E8F14D /* GCDAsyncUdpSocket.m */; };
+		6743FFB1199DED7400E8F14D /* RussA_Constants.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEE5199DED7400E8F14D /* RussA_Constants.rtf */; };
+		6743FFB2199DED7400E8F14D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEE7199DED7400E8F14D /* Main_iPad.storyboard */; };
+		6743FFB3199DED7400E8F14D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEE9199DED7400E8F14D /* Main_iPhone.storyboard */; };
+		6743FFB5199DED7400E8F14D /* ChinaFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEEE199DED7400E8F14D /* ChinaFlag.png */; };
+		6743FFB6199DED7400E8F14D /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEEF199DED7400E8F14D /* gear.png */; };
+		6743FFB7199DED7400E8F14D /* gear_ORIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF0199DED7400E8F14D /* gear_ORIG.png */; };
+		6743FFB8199DED7400E8F14D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF1199DED7400E8F14D /* icon.png */; };
+		6743FFB9199DED7400E8F14D /* media-eject.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF2199DED7400E8F14D /* media-eject.png */; };
+		6743FFBA199DED7400E8F14D /* media-playback-pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF3199DED7400E8F14D /* media-playback-pause.png */; };
+		6743FFBB199DED7400E8F14D /* media-playback-start.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF4199DED7400E8F14D /* media-playback-start.png */; };
+		6743FFBC199DED7400E8F14D /* media-playback-stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF5199DED7400E8F14D /* media-playback-stop.png */; };
+		6743FFBD199DED7400E8F14D /* media-record.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF6199DED7400E8F14D /* media-record.png */; };
+		6743FFBE199DED7400E8F14D /* media-seek-backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF7199DED7400E8F14D /* media-seek-backward.png */; };
+		6743FFBF199DED7400E8F14D /* media-seek-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF8199DED7400E8F14D /* media-seek-forward.png */; };
+		6743FFC0199DED7400E8F14D /* media-skip-backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEF9199DED7400E8F14D /* media-skip-backward.png */; };
+		6743FFC1199DED7400E8F14D /* media-skip-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEFA199DED7400E8F14D /* media-skip-forward.png */; };
+		6743FFC2199DED7400E8F14D /* powerOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEFB199DED7400E8F14D /* powerOff.png */; };
+		6743FFC3199DED7400E8F14D /* powerOff_ORIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEFC199DED7400E8F14D /* powerOff_ORIG.png */; };
+		6743FFC4199DED7400E8F14D /* powerOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEFD199DED7400E8F14D /* powerOn.png */; };
+		6743FFC5199DED7400E8F14D /* powerOn_ORIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEFE199DED7400E8F14D /* powerOn_ORIG.png */; };
+		6743FFC6199DED7400E8F14D /* radioBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FEFF199DED7400E8F14D /* radioBackground.png */; };
+		6743FFC7199DED7400E8F14D /* radioFace.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF00199DED7400E8F14D /* radioFace.png */; };
+		6743FFC8199DED7400E8F14D /* RussiaFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF01199DED7400E8F14D /* RussiaFlag.png */; };
+		6743FFC9199DED7400E8F14D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF02199DED7400E8F14D /* settings.png */; };
+		6743FFCA199DED7400E8F14D /* settings_ORIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF03199DED7400E8F14D /* settings_ORIG.png */; };
+		6743FFCB199DED7400E8F14D /* UKFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF04199DED7400E8F14D /* UKFlag.png */; };
+		6743FFCC199DED7400E8F14D /* volumeDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF05199DED7400E8F14D /* volumeDown.png */; };
+		6743FFCD199DED7400E8F14D /* volumeMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF06199DED7400E8F14D /* volumeMute.png */; };
+		6743FFCE199DED7400E8F14D /* volumeUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF07199DED7400E8F14D /* volumeUp.png */; };
+		6743FFCF199DED7400E8F14D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF08199DED7400E8F14D /* main.m */; };
+		6743FFD0199DED7400E8F14D /* RussA_ sourceSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF0A199DED7400E8F14D /* RussA_ sourceSelectViewController.m */; };
+		6743FFD1199DED7400E8F14D /* RussA_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF0C199DED7400E8F14D /* RussA_AppDelegate.m */; };
+		6743FFD2199DED7400E8F14D /* RussA_Controler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF0E199DED7400E8F14D /* RussA_Controler.m */; };
+		6743FFD3199DED7400E8F14D /* RussA_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF10199DED7400E8F14D /* RussA_FirstViewController.m */; };
+		6743FFD4199DED7400E8F14D /* RussA_languageSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF12199DED7400E8F14D /* RussA_languageSelectionViewController.m */; };
+		6743FFD5199DED7400E8F14D /* RussA_radioZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF14199DED7400E8F14D /* RussA_radioZoneViewController.m */; };
+		6743FFD7199DED7400E8F14D /* RussA_settingsSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF18199DED7400E8F14D /* RussA_settingsSlider.m */; };
+		6743FFD8199DED7400E8F14D /* RussA_Source.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF1A199DED7400E8F14D /* RussA_Source.m */; };
+		6743FFD9199DED7400E8F14D /* RussA_System.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF1C199DED7400E8F14D /* RussA_System.m */; };
+		6743FFDA199DED7400E8F14D /* RussA_timePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF1E199DED7400E8F14D /* RussA_timePickerViewController.m */; };
+		6743FFDB199DED7400E8F14D /* RussA_Zone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF20199DED7400E8F14D /* RussA_Zone.m */; };
+		6743FFDC199DED7400E8F14D /* RussA_ZoneSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743FF22199DED7400E8F14D /* RussA_ZoneSettingsController.m */; };
+		6743FFDE199DED7400E8F14D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6743FF25199DED7400E8F14D /* Settings.bundle */; };
+		6774C1FC199F3BD200A78986 /* Radio-Wooden.png in Resources */ = {isa = PBXBuildFile; fileRef = 6774C1FB199F3BD200A78986 /* Radio-Wooden.png */; };
+		6774C1FE199F3D4400A78986 /* Music-Wooden.png in Resources */ = {isa = PBXBuildFile; fileRef = 6774C1FD199F3D4400A78986 /* Music-Wooden.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67163535199F0FAE004CF044 /* digitalMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digitalMusic.png; sourceTree = "<group>"; };
+		6743FEDD199DED7400E8F14D /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		6743FEDE199DED7400E8F14D /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		6743FEDF199DED7400E8F14D /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		6743FEE0199DED7400E8F14D /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		6743FEE1199DED7400E8F14D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		6743FEE2199DED7400E8F14D /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		6743FEE3199DED7400E8F14D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		6743FEE4199DED7400E8F14D /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		6743FEE5199DED7400E8F14D /* RussA_Constants.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = RussA_Constants.rtf; sourceTree = "<group>"; };
+		6743FEE8199DED7400E8F14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6743FEEA199DED7400E8F14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6743FEEE199DED7400E8F14D /* ChinaFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChinaFlag.png; sourceTree = "<group>"; };
+		6743FEEF199DED7400E8F14D /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		6743FEF0199DED7400E8F14D /* gear_ORIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear_ORIG.png; sourceTree = "<group>"; };
+		6743FEF1199DED7400E8F14D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6743FEF2199DED7400E8F14D /* media-eject.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-eject.png"; sourceTree = "<group>"; };
+		6743FEF3199DED7400E8F14D /* media-playback-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-playback-pause.png"; sourceTree = "<group>"; };
+		6743FEF4199DED7400E8F14D /* media-playback-start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-playback-start.png"; sourceTree = "<group>"; };
+		6743FEF5199DED7400E8F14D /* media-playback-stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-playback-stop.png"; sourceTree = "<group>"; };
+		6743FEF6199DED7400E8F14D /* media-record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-record.png"; sourceTree = "<group>"; };
+		6743FEF7199DED7400E8F14D /* media-seek-backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-seek-backward.png"; sourceTree = "<group>"; };
+		6743FEF8199DED7400E8F14D /* media-seek-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-seek-forward.png"; sourceTree = "<group>"; };
+		6743FEF9199DED7400E8F14D /* media-skip-backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-skip-backward.png"; sourceTree = "<group>"; };
+		6743FEFA199DED7400E8F14D /* media-skip-forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-skip-forward.png"; sourceTree = "<group>"; };
+		6743FEFB199DED7400E8F14D /* powerOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerOff.png; sourceTree = "<group>"; };
+		6743FEFC199DED7400E8F14D /* powerOff_ORIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerOff_ORIG.png; sourceTree = "<group>"; };
+		6743FEFD199DED7400E8F14D /* powerOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerOn.png; sourceTree = "<group>"; };
+		6743FEFE199DED7400E8F14D /* powerOn_ORIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerOn_ORIG.png; sourceTree = "<group>"; };
+		6743FEFF199DED7400E8F14D /* radioBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioBackground.png; sourceTree = "<group>"; };
+		6743FF00199DED7400E8F14D /* radioFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioFace.png; sourceTree = "<group>"; };
+		6743FF01199DED7400E8F14D /* RussiaFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RussiaFlag.png; sourceTree = "<group>"; };
+		6743FF02199DED7400E8F14D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		6743FF03199DED7400E8F14D /* settings_ORIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_ORIG.png; sourceTree = "<group>"; };
+		6743FF04199DED7400E8F14D /* UKFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UKFlag.png; sourceTree = "<group>"; };
+		6743FF05199DED7400E8F14D /* volumeDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeDown.png; sourceTree = "<group>"; };
+		6743FF06199DED7400E8F14D /* volumeMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeMute.png; sourceTree = "<group>"; };
+		6743FF07199DED7400E8F14D /* volumeUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumeUp.png; sourceTree = "<group>"; };
+		6743FF08199DED7400E8F14D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6743FF09199DED7400E8F14D /* RussA_ sourceSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RussA_ sourceSelectViewController.h"; sourceTree = "<group>"; };
+		6743FF0A199DED7400E8F14D /* RussA_ sourceSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RussA_ sourceSelectViewController.m"; sourceTree = "<group>"; };
+		6743FF0B199DED7400E8F14D /* RussA_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_AppDelegate.h; sourceTree = "<group>"; };
+		6743FF0C199DED7400E8F14D /* RussA_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_AppDelegate.m; sourceTree = "<group>"; };
+		6743FF0D199DED7400E8F14D /* RussA_Controler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_Controler.h; sourceTree = "<group>"; };
+		6743FF0E199DED7400E8F14D /* RussA_Controler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_Controler.m; sourceTree = "<group>"; };
+		6743FF0F199DED7400E8F14D /* RussA_FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_FirstViewController.h; sourceTree = "<group>"; };
+		6743FF10199DED7400E8F14D /* RussA_FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_FirstViewController.m; sourceTree = "<group>"; };
+		6743FF11199DED7400E8F14D /* RussA_languageSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_languageSelectionViewController.h; sourceTree = "<group>"; };
+		6743FF12199DED7400E8F14D /* RussA_languageSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_languageSelectionViewController.m; sourceTree = "<group>"; };
+		6743FF13199DED7400E8F14D /* RussA_radioZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_radioZoneViewController.h; sourceTree = "<group>"; };
+		6743FF14199DED7400E8F14D /* RussA_radioZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_radioZoneViewController.m; sourceTree = "<group>"; };
+		6743FF17199DED7400E8F14D /* RussA_settingsSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_settingsSlider.h; sourceTree = "<group>"; };
+		6743FF18199DED7400E8F14D /* RussA_settingsSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_settingsSlider.m; sourceTree = "<group>"; };
+		6743FF19199DED7400E8F14D /* RussA_Source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_Source.h; sourceTree = "<group>"; };
+		6743FF1A199DED7400E8F14D /* RussA_Source.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_Source.m; sourceTree = "<group>"; };
+		6743FF1B199DED7400E8F14D /* RussA_System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_System.h; sourceTree = "<group>"; };
+		6743FF1C199DED7400E8F14D /* RussA_System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_System.m; sourceTree = "<group>"; };
+		6743FF1D199DED7400E8F14D /* RussA_timePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_timePickerViewController.h; sourceTree = "<group>"; };
+		6743FF1E199DED7400E8F14D /* RussA_timePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_timePickerViewController.m; sourceTree = "<group>"; };
+		6743FF1F199DED7400E8F14D /* RussA_Zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_Zone.h; sourceTree = "<group>"; };
+		6743FF20199DED7400E8F14D /* RussA_Zone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_Zone.m; sourceTree = "<group>"; };
+		6743FF21199DED7400E8F14D /* RussA_ZoneSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussA_ZoneSettingsController.h; sourceTree = "<group>"; };
+		6743FF22199DED7400E8F14D /* RussA_ZoneSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussA_ZoneSettingsController.m; sourceTree = "<group>"; };
+		6743FF23199DED7400E8F14D /* RussAudio-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RussAudio-Info.plist"; sourceTree = "<group>"; };
+		6743FF24199DED7400E8F14D /* RussAudio-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RussAudio-Prefix.pch"; sourceTree = "<group>"; };
+		6743FF25199DED7400E8F14D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6774C1FB199F3BD200A78986 /* Radio-Wooden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Wooden.png"; sourceTree = "<group>"; };
+		6774C1FD199F3D4400A78986 /* Music-Wooden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music-Wooden.png"; sourceTree = "<group>"; };
+		67D9EF79199E336F00DCC7FD /* RussAudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RussAudio.entitlements; sourceTree = "<group>"; };
+		67F5FC4F1D2440DB00C11307 /* RussAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6743FEA8199DED3400E8F14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6743FEA2199DED3400E8F14D = {
+			isa = PBXGroup;
+			children = (
+				677866011B0165E6002EC01D /* CocoaAsyncSocket */,
+				6743FEE6199DED7400E8F14D /* RussAudio */,
+				67F5FC4F1D2440DB00C11307 /* RussAudio.app */,
+			);
+			sourceTree = "<group>";
+		};
+		6743FEE6199DED7400E8F14D /* RussAudio */ = {
+			isa = PBXGroup;
+			children = (
+				67D9EF79199E336F00DCC7FD /* RussAudio.entitlements */,
+				6743FEE7199DED7400E8F14D /* Main_iPad.storyboard */,
+				6743FEE9199DED7400E8F14D /* Main_iPhone.storyboard */,
+				6743FEED199DED7400E8F14D /* images */,
+				6743FF08199DED7400E8F14D /* main.m */,
+				6743FF09199DED7400E8F14D /* RussA_ sourceSelectViewController.h */,
+				6743FF0A199DED7400E8F14D /* RussA_ sourceSelectViewController.m */,
+				6743FF0B199DED7400E8F14D /* RussA_AppDelegate.h */,
+				6743FF0C199DED7400E8F14D /* RussA_AppDelegate.m */,
+				6743FF0D199DED7400E8F14D /* RussA_Controler.h */,
+				6743FF0E199DED7400E8F14D /* RussA_Controler.m */,
+				6743FF0F199DED7400E8F14D /* RussA_FirstViewController.h */,
+				6743FF10199DED7400E8F14D /* RussA_FirstViewController.m */,
+				6743FF11199DED7400E8F14D /* RussA_languageSelectionViewController.h */,
+				6743FF12199DED7400E8F14D /* RussA_languageSelectionViewController.m */,
+				6743FF13199DED7400E8F14D /* RussA_radioZoneViewController.h */,
+				6743FF14199DED7400E8F14D /* RussA_radioZoneViewController.m */,
+				6743FF17199DED7400E8F14D /* RussA_settingsSlider.h */,
+				6743FF18199DED7400E8F14D /* RussA_settingsSlider.m */,
+				6743FF19199DED7400E8F14D /* RussA_Source.h */,
+				6743FF1A199DED7400E8F14D /* RussA_Source.m */,
+				6743FF1B199DED7400E8F14D /* RussA_System.h */,
+				6743FF1C199DED7400E8F14D /* RussA_System.m */,
+				6743FF1D199DED7400E8F14D /* RussA_timePickerViewController.h */,
+				6743FF1E199DED7400E8F14D /* RussA_timePickerViewController.m */,
+				6743FF1F199DED7400E8F14D /* RussA_Zone.h */,
+				6743FF20199DED7400E8F14D /* RussA_Zone.m */,
+				6743FF21199DED7400E8F14D /* RussA_ZoneSettingsController.h */,
+				6743FF22199DED7400E8F14D /* RussA_ZoneSettingsController.m */,
+				6743FF23199DED7400E8F14D /* RussAudio-Info.plist */,
+				6743FF24199DED7400E8F14D /* RussAudio-Prefix.pch */,
+				6743FF25199DED7400E8F14D /* Settings.bundle */,
+			);
+			path = RussAudio;
+			sourceTree = "<group>";
+		};
+		6743FEED199DED7400E8F14D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6774C1FD199F3D4400A78986 /* Music-Wooden.png */,
+				6774C1FB199F3BD200A78986 /* Radio-Wooden.png */,
+				6743FEEE199DED7400E8F14D /* ChinaFlag.png */,
+				67163535199F0FAE004CF044 /* digitalMusic.png */,
+				6743FEF0199DED7400E8F14D /* gear_ORIG.png */,
+				6743FEEF199DED7400E8F14D /* gear.png */,
+				6743FEF1199DED7400E8F14D /* icon.png */,
+				6743FEF2199DED7400E8F14D /* media-eject.png */,
+				6743FEF3199DED7400E8F14D /* media-playback-pause.png */,
+				6743FEF4199DED7400E8F14D /* media-playback-start.png */,
+				6743FEF5199DED7400E8F14D /* media-playback-stop.png */,
+				6743FEF6199DED7400E8F14D /* media-record.png */,
+				6743FEF7199DED7400E8F14D /* media-seek-backward.png */,
+				6743FEF8199DED7400E8F14D /* media-seek-forward.png */,
+				6743FEF9199DED7400E8F14D /* media-skip-backward.png */,
+				6743FEFA199DED7400E8F14D /* media-skip-forward.png */,
+				6743FEFC199DED7400E8F14D /* powerOff_ORIG.png */,
+				6743FEFB199DED7400E8F14D /* powerOff.png */,
+				6743FEFE199DED7400E8F14D /* powerOn_ORIG.png */,
+				6743FEFD199DED7400E8F14D /* powerOn.png */,
+				6743FEFF199DED7400E8F14D /* radioBackground.png */,
+				6743FF00199DED7400E8F14D /* radioFace.png */,
+				6743FF01199DED7400E8F14D /* RussiaFlag.png */,
+				6743FF03199DED7400E8F14D /* settings_ORIG.png */,
+				6743FF02199DED7400E8F14D /* settings.png */,
+				6743FF04199DED7400E8F14D /* UKFlag.png */,
+				6743FF05199DED7400E8F14D /* volumeDown.png */,
+				6743FF06199DED7400E8F14D /* volumeMute.png */,
+				6743FF07199DED7400E8F14D /* volumeUp.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		677866011B0165E6002EC01D /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				6743FEDE199DED7400E8F14D /* DDLog.m */,
+				6743FEDF199DED7400E8F14D /* DDTTYLogger.h */,
+				6743FEE0199DED7400E8F14D /* DDTTYLogger.m */,
+				6743FEE1199DED7400E8F14D /* GCDAsyncSocket.h */,
+				6743FEE2199DED7400E8F14D /* GCDAsyncSocket.m */,
+				6743FEE3199DED7400E8F14D /* GCDAsyncUdpSocket.h */,
+				6743FEE4199DED7400E8F14D /* GCDAsyncUdpSocket.m */,
+				6743FEE5199DED7400E8F14D /* RussA_Constants.rtf */,
+				6743FEDD199DED7400E8F14D /* DDLog.h */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6743FEAA199DED3400E8F14D /* RussAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6743FED7199DED3400E8F14D /* Build configuration list for PBXNativeTarget "RussAudio" */;
+			buildPhases = (
+				6743FEA7199DED3400E8F14D /* Sources */,
+				6743FEA8199DED3400E8F14D /* Frameworks */,
+				6743FEA9199DED3400E8F14D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussAudio;
+			productName = RussAudio;
+			productReference = 67F5FC4F1D2440DB00C11307 /* RussAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6743FEA3199DED3400E8F14D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RussA_;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "BORGcube Inc.";
+				TargetAttributes = {
+					6743FEAA199DED3400E8F14D = {
+						DevelopmentTeam = 4XE5S49D6K;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6743FEA6199DED3400E8F14D /* Build configuration list for PBXProject "RussAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6743FEA2199DED3400E8F14D;
+			productRefGroup = 6743FEA2199DED3400E8F14D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6743FEAA199DED3400E8F14D /* RussAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6743FEA9199DED3400E8F14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6743FFCB199DED7400E8F14D /* UKFlag.png in Resources */,
+				6743FFB5199DED7400E8F14D /* ChinaFlag.png in Resources */,
+				67163536199F0FAE004CF044 /* digitalMusic.png in Resources */,
+				6743FFC7199DED7400E8F14D /* radioFace.png in Resources */,
+				6743FFBE199DED7400E8F14D /* media-seek-backward.png in Resources */,
+				6743FFCE199DED7400E8F14D /* volumeUp.png in Resources */,
+				6743FFCA199DED7400E8F14D /* settings_ORIG.png in Resources */,
+				6743FFBC199DED7400E8F14D /* media-playback-stop.png in Resources */,
+				6743FFDE199DED7400E8F14D /* Settings.bundle in Resources */,
+				6743FFB1199DED7400E8F14D /* RussA_Constants.rtf in Resources */,
+				6743FFC4199DED7400E8F14D /* powerOn.png in Resources */,
+				6743FFC9199DED7400E8F14D /* settings.png in Resources */,
+				6743FFCD199DED7400E8F14D /* volumeMute.png in Resources */,
+				6743FFBB199DED7400E8F14D /* media-playback-start.png in Resources */,
+				6743FFC2199DED7400E8F14D /* powerOff.png in Resources */,
+				6743FFC6199DED7400E8F14D /* radioBackground.png in Resources */,
+				6743FFBD199DED7400E8F14D /* media-record.png in Resources */,
+				6743FFC8199DED7400E8F14D /* RussiaFlag.png in Resources */,
+				6774C1FC199F3BD200A78986 /* Radio-Wooden.png in Resources */,
+				6743FFBA199DED7400E8F14D /* media-playback-pause.png in Resources */,
+				6743FFB6199DED7400E8F14D /* gear.png in Resources */,
+				6743FFB9199DED7400E8F14D /* media-eject.png in Resources */,
+				6743FFC5199DED7400E8F14D /* powerOn_ORIG.png in Resources */,
+				6743FFC1199DED7400E8F14D /* media-skip-forward.png in Resources */,
+				6743FFC0199DED7400E8F14D /* media-skip-backward.png in Resources */,
+				6743FFB8199DED7400E8F14D /* icon.png in Resources */,
+				6743FFC3199DED7400E8F14D /* powerOff_ORIG.png in Resources */,
+				6743FFB2199DED7400E8F14D /* Main_iPad.storyboard in Resources */,
+				6774C1FE199F3D4400A78986 /* Music-Wooden.png in Resources */,
+				6743FFBF199DED7400E8F14D /* media-seek-forward.png in Resources */,
+				6743FFCC199DED7400E8F14D /* volumeDown.png in Resources */,
+				6743FFB7199DED7400E8F14D /* gear_ORIG.png in Resources */,
+				6743FFB3199DED7400E8F14D /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6743FEA7199DED3400E8F14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6743FFD5199DED7400E8F14D /* RussA_radioZoneViewController.m in Sources */,
+				6743FFDC199DED7400E8F14D /* RussA_ZoneSettingsController.m in Sources */,
+				6743FFCF199DED7400E8F14D /* main.m in Sources */,
+				6743FFD2199DED7400E8F14D /* RussA_Controler.m in Sources */,
+				6743FFD0199DED7400E8F14D /* RussA_ sourceSelectViewController.m in Sources */,
+				6743FFD7199DED7400E8F14D /* RussA_settingsSlider.m in Sources */,
+				6743FFB0199DED7400E8F14D /* GCDAsyncUdpSocket.m in Sources */,
+				6743FFD4199DED7400E8F14D /* RussA_languageSelectionViewController.m in Sources */,
+				6743FFDA199DED7400E8F14D /* RussA_timePickerViewController.m in Sources */,
+				6743FFD1199DED7400E8F14D /* RussA_AppDelegate.m in Sources */,
+				6743FFD8199DED7400E8F14D /* RussA_Source.m in Sources */,
+				6743FFAF199DED7400E8F14D /* GCDAsyncSocket.m in Sources */,
+				6743FFAD199DED7400E8F14D /* DDLog.m in Sources */,
+				6743FFD9199DED7400E8F14D /* RussA_System.m in Sources */,
+				6743FFD3199DED7400E8F14D /* RussA_FirstViewController.m in Sources */,
+				6743FFAE199DED7400E8F14D /* DDTTYLogger.m in Sources */,
+				6743FFDB199DED7400E8F14D /* RussA_Zone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6743FEE7199DED7400E8F14D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6743FEE8199DED7400E8F14D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6743FEE9199DED7400E8F14D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6743FEEA199DED7400E8F14D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6743FED6199DED3400E8F14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kamau Wanguhu (K3XX95ZUG7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6743FED9199DED3400E8F14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RussAudio/RussAudio-Prefix.pch";
+				INFOPLIST_FILE = "RussAudio/RussAudio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.borgcube.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6743FEA6199DED3400E8F14D /* Build configuration list for PBXProject "RussAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6743FED6199DED3400E8F14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6743FED7199DED3400E8F14D /* Build configuration list for PBXNativeTarget "RussAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6743FED9199DED3400E8F14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6743FEA3199DED3400E8F14D /* Project object */;
+}

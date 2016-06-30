@@ -1,0 +1,176 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red43\green131\blue159;\red0\green0\blue255;\red163\green21\blue21;
+\red0\green128\blue0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab626
+\pard\tx626\pardeftab626\pardirnatural
+
+\f0\fs26 \cf0 \CocoaLigature0 \
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_modeSourceType [] =\
+\{\
+    \cf4 @"Unknown"\cf0 ,\
+    \cf4 @"USB"\cf0 ,\
+    \cf4 @"Media Server"\cf0 ,\
+    \cf4 @"Pandora"\cf0 ,\
+    \cf4 @"SiriusXM"\cf0 ,\
+    \cf4 @"Internet Radio"\cf0 ,\
+    \cf4 @"Rhapsody"\cf0 ,\
+    \cf4 @"Last.fm"\cf0 ,\
+    \cf4 @"AirPlay"\cf0 , \cf3 nil\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_composerCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET Sirius Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (External)"\cf0 , \cf3 nil\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_ipAddressableSourceType[]  =\
+\{\
+    \cf4 @"RNET SMS3"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf5 //(v1.3)\cf0 \
+    \cf4 @"DMS-3.1 AM/FM Tuner"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_ChannelCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET AM/FM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET AM/FM Tuner (External)"\cf0 ,\
+    \cf4 @"DMS-3.1 AM/FM Tuner"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_coverArtURLCapableSourceType[]  =\
+\{\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_channelNameCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET XM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET XM Tuner (External)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (External)"\cf0 ,\
+    \cf4 @"Arcam T32"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_genreCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET XM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET XM Tuner (External)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (External)"\cf0 ,\
+    \cf4 @"Arcam T32"\cf0 , \cf3 nil\cf0 \
+    \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_artistCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET XM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET XM Tuner (External)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (External)"\cf0 ,\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"RNET SMS3"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_albumNameCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"RNET SMS3"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_playlistNameCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"RNET SMS3"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_songNameCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET XM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET XM Tuner (External)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (External)"\cf0 ,\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"RNET SMS3"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streame"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_programServiceNameCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET AM/FM Tuner (Internal)"\cf0 ,\
+    \cf4 @"DMS-3.1 AM/FM Tuner"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_radioTextCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET AM/FM Tuner (Internal)"\cf0 ,\
+    \cf4 @"DMS-3.1 AM/FM Tuner"\cf0 , \cf5 //(v1.3)\cf0 \
+    \cf4 @"Arcam T32"\cf0 , \cf3 nil\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_suffleModeCapableSourceType[]  =\
+\{\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_repeatModeCapableSourceType[]  =\
+\{\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_ModeCapableSourceType [] =\
+\{\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf3 nil\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_MMLongListCapableSourceType [] =\
+\{\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+\
+\cf2 NSString\cf0  * \cf3 const\cf0  RussA_sourceType[]  =\
+\{\
+    \cf4 @"Amplifier"\cf0 ,\
+    \cf4 @"Television"\cf0 ,\
+    \cf4 @"Cable"\cf0 ,\
+    \cf4 @"Video Acc"\cf0 ,\
+    \cf4 @"Satellite"\cf0 ,\
+    \cf4 @"VCR"\cf0 ,\
+    \cf4 @"Laser Disc"\cf0 ,\
+    \cf4 @"DVD"\cf0 ,\
+    \cf4 @"Tuner / Amplifier"\cf0 ,\
+    \cf4 @"Misc Audio"\cf0 ,\
+    \cf4 @"CD"\cf0 ,\
+    \cf4 @"Home Control"\cf0 ,\
+    \cf4 @"5 Disc CD Changer"\cf0 ,\
+    \cf4 @"6 Disc CD Changer"\cf0 ,\
+    \cf4 @"CD Changer"\cf0 ,\
+    \cf4 @"DVD Changer"\cf0 ,\
+    \cf4 @"RNET AM/FM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET AM/FM Tuner (External)"\cf0 ,\
+    \cf4 @"RNET XM Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET XM Tuner (External)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (Internal)"\cf0 ,\
+    \cf4 @"RNET Sirius Tuner (External)"\cf0 ,\
+    \cf4 @"RNET SMS3"\cf0 ,\
+    \cf4 @"RNET iBridge Dock"\cf0 ,\
+    \cf4 @"RNET iBridge Bay"\cf0 ,\
+    \cf4 @"Arcam T32"\cf0 ,\
+    \cf4 @"DMS-3.1 Media Streamer"\cf0 , \cf5 //(v1.3)\cf0 \
+    \cf4 @"DMS-3.1 AM/FM Tuner"\cf0  \cf5 //(v1.3)\cf0 \
+\};\
+}
